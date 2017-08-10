@@ -1,1 +1,428 @@
 /* global style sheet */
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+.main-logo{
+
+}
+.brand-logo img {
+    width: 100%;
+    max-width: 120px;
+    margin-top: 5px;
+}
+.side-nav{
+	width: 70% !important;
+}
+.nav-top{margin-top: 100px;}
+
+nav .nav-wrapper{
+	
+}
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+.transparent-nav{
+	background: transparent !important;
+	box-shadow: none;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+nav.nav-bar ul a{
+	color:#404040;
+}
+nav.transparent-nav ul a{
+	color: #00a650;
+    text-shadow: 0px 0px 0px #aaa;
+    line-height: 8rem;
+}
+nav.transparent-nav ul a:hover{
+	color:#fff;
+	background: transparent !important;
+}
+nav.nav-bar {
+    background: #fff;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+nav.nav-bar ul a:hover {
+    color: #232323;
+    background: #dedede;
+}
+
+/**========================
+    Content Title
+==========================*/
+
+.c-title{
+    text-align: center;
+    font-size: 26px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 25px;
+    line-height: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+.c-paragraph{
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.abt-box{
+    padding: 25px;
+    text-align: center;
+}
+.abt-box h4{
+    font-size: 22px;
+    padding: 10px 0px;
+}
+
+/**============================
+        Padding Property
+=============================*/
+.pad-20{
+    padding: 20px 0px;
+}
+
+
+/**=============================
+        Offer Page
+===============================*/
+.offering-image{
+    width: 120px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.offer-box{
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.offer-box h4{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.offer-card-panel{
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+
+/**==========================
+        Team page Start
+============================*/
+.team-content-box p{text-align: justify;}
+/*.team-content-box{
+    padding: 10px !important;
+    border: 1px solid #ddd;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.team-content-box:hover{
+box-shadow: inset 0px 1px 20px #ddd;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+*/
+.img-box{
+    max-width: 300px !important;
+}
+/**=============================
+        Footer Start
+===============================*/
+
+footer.page-footer {
+    background: #00A650;
+}
+.footer-text{
+	color: #000;
+}
+.footer-link a{
+	color: #000;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+.footer-link a:hover{
+	color: #ddd;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+a.footer-link-right.right {
+    font-size: 13px;
+    margin: 0px 10px;
+    color: #a0a0a0;
+    /* text-transform: uppercase; */
+}
+
+a.footer-link-right:hover {
+    color: #fff;
+}
+a.copyright-site-link {
+    color: #fff;
+}
+
+.footer-copyright .container span {
+    color: #ababab;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+i.social-connect {
+    font-size: 35px !important;
+    margin: 0px 10px;
+    color: #7d7d7d;
+}
+
+i.social-connect.connect-facebook:hover {
+    color: #3b5998;
+}
+
+i.social-connect.connect-linkedin:hover {
+    color: #283e4a;
+}
+
+.partner-logo .card-panel {
+    max-width: 200px;
+    height: 200px;
+    padding: 10px !important;
+}
+
+.partner-logo .card-panel img {
+    width: 100%;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #01a551 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.section-title.grey-text.text-darken-4.flow-text{
+	color: #01a551 !important;
+}
+.parallax-container{
+    height: auto;
+    background: rgba(0,0,0,0.7);
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card-panel.right {
+    margin-right: 20px;
+}
+
+.card-panel.left {
+    margin-left: 20px;
+}
+.col-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #757575;
+}
+
+.card-panel.black {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #ccc;
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.card-panel.black:hover .card-title{
+    color: #feec00;
+}
+
+.card-content {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.card-panel.black {
+    height: 180px;
+}
+
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.background-image img {
+    height: 180px;
+    /* border-radius: 0px; */
+}
+
+.card-panel.black {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-panel.black {
+    background: rgba(0,0,0,0.9) !important;
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.card-panel.black:hover {
+    background: rgba(0,0,0,0.8) !important;
+    cursor: pointer;
+}
+img.full-width {
+    width: 100%;
+    height: auto !important;
+}
+ul#nav-mobile {
+    z-index: 100;
+}
+#sidenav-overlay{
+    z-index: 99 !important;
+}
+
+ul#nav-mobile li a {
+    color: #000;
+    border-bottom: 1px solid #dcdcdc;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+nav.transparent-nav ul a:hover {
+    color: #000;
+    background:linear-gradient(rgba(255,255,255,0.9),rgba(200,200,200,0.1)) !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.dropdown-content li a {
+    background: #dedede !important;
+    color: #5a5a5a !important;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+/**==================================
+		About Page
+===================================**/
+.about-section p{
+    font-size: 16px;
+    text-align: justify;
+}
+.h5{
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+/**==================================
+		The Begining Page
+===================================**/
+p.b-title{
+	text-align: center;
+    margin: 20px 0px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+/**==================================
+		The Begining Page
+===================================**/
+.li li{
+	color: #01A551;
+}
+
+/**==================================
+		Footer Site Map
+===================================**/
+marquee{
+	max-height: 150px;
+	margin-top: 15px;
+}
+marquee p{
+	color: #000;
+}
+
+
+.ftr-sitemap{
+	line-height: 5rem;
+}
+.ftr-sitemap a{
+	color: #aaa !important;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+.ftr-sitemap a:hover{
+	color: #fff !important;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+/**================================================================================================
+			 Mobile Responsive Media queries
+===================================================================================================*/
+@media only screen and (max-width: 992px){
+	.nav .brand-logo {
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		text-align: center !important;
+	}
+}
